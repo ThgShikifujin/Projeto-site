@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+div#interface {
+    width: 1800px;
+    margin: 0px auto 0px auto;
+    min-width: 760px;
+}
+
+section#texto {
+    background-color: whitesmoke;
+    width: 700px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin-top: 3px;
+    float: left;
+    margin-left: 180px;
+    padding-bottom: 101px;
+}
+
+hgroup h1 {
+    font-size: 25pt;
+}
+
+hgroup h3 {
+    color: #722F37;
+    font-size: 20pt;
+}
+
+iframe {
+    margin-top: 35px;
+    border: 8px solid #722F37;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+aside#lado {
+    display: block;
+    width: 700px;
+    float: right;
+    background-color: whitesmoke;
+    margin-top: 3px;
+    margin-right: 180px;
+    padding: 10px;
+    text-align: center;
+}
+
+aside#lado h1 {
+    font-size: 25pt;
+}
+
+aside#lado img {
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+   border: 8px solid #722F37;
+   width: 560px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+footer {
+    text-align: center;
+    border-top: 3px solid #722F37;
+    clear: both;
+    padding: 10px;
+    width: 1830px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: #fefefe;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #722F37;
+    border-radius: 10px;
+}

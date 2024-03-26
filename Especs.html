@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="_css/specs.css">
+        <link rel="stylesheet" href="_css/specs-cabecalho.css"> 
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+        <title>Especificações</title>
+    </head>
+    <body>
+        <header>
+            <div class="conteiner">
+                <img id="logo" src="_imagens/logo.jpg">
+                <h1>Short Circuit</h1>  
+            </div>
+        </header>
+        <nav class="menu-lateral">
+            <div class="btn-expandir">
+                <i class="fa-solid fa-bars" id="btn-exp"></i>
+            </div>
+            <ul>
+                <li class="item-menu ">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-house"></i></span>
+                        <span class="txt-link" onclick="redirecionar()">Home</span>
+                    </a>
+                </li>
+                <li class="item-menu ativo">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                        <span class="txt-link">Especificações</span>
+                    </a>
+                </li>
+                <li class="item-menu">
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <span class="txt-link" onclick="redirecionar2()">Usuario</span>
+                    </a>
+                </li>
+            </ul>    
+        </nav>
+        <div id="specs">
+            <table>
+                <thead>
+                    <tr><th id="es" colspan="10">Especificações</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <th>RTX 3090TI</th>
+                        <th>RTX 3090</th>
+                        <th>RTX 3080TI</th>
+                        <th>RTX 3080</th>
+                        <th>RTX 3070TI</th>
+                        <th>RTX 3070</th>
+                        <th>RTX 3060TI</th>
+                        <th>RTX 3060</th>
+                        <th>RTX 3050</th>
+                    </tr>
+                    <tr>
+                        <th>Nvidia Cuda Cores</th>
+                        <td>10752</td>
+                        <td>10496</td>
+                        <td>10240</td>
+                        <td>8960/8704</td>
+                        <td>6144</td>
+                        <td>5888</td>
+                        <td>4864</td>
+                        <td>3584</td>
+                        <td>2560/2304</td>
+                    </tr>
+                    <tr>
+                        <th>Boost Clock (GHz)</th>
+                        <td>1.68</td>
+                        <td>1.70</td>
+                        <td>1.67</td>
+                        <td>1.71</td>
+                        <td>1.77</td>
+                        <td>1.73</td>
+                        <td>1.67</td>
+                        <td>1.78</td>
+                        <td>1.78/1.76</td>
+                    </tr>
+                    <tr>
+                        <th>Tamanho da Memória</th>
+                        <td>24 GB</td>
+                        <td>24 GB</td>
+                        <td>12 GB</td>
+                        <td>12/10 GB</td>
+                        <td>8 GB</td>
+                        <td>8 GB</td>
+                        <td>8 GB</td>
+                        <td>12 GB</td>
+                        <td>8 GB</td>
+                    </tr>
+                    <tr>
+                        <th>Tipo de Memória</th>
+                        <td>GDDR6X</td>
+                        <td>GDDR6X</td>
+                        <td>GDDR6X</td>
+                        <td>GDDR6X</td>
+                        <td>GDDR6X</td>
+                        <td>GDDR6</td>
+                        <td>GDDR6</td>
+                        <td>GDDR6</td>
+                        <td>GDDR6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            Copyright by 2023 - Thiago Silva
+        </footer> 
+        <script src="_javascript/especs.js"></script>
+    </body>
+</html>
